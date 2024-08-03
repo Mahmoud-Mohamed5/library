@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--============ FONT AWESOME ===============-->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!--============ BOOSTRAB CSS ===============-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--============ MAIN CSS ===============-->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page/romantic.css">
+    <title>Library for books</title>
+</head>
+<body class="">
+    <main class="d-flex">
+        <aside class="position-sticky chw ">
+            <div class="icon" id="icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                <h2 class="name-lab">Books Store</h2>
+                <h3 class="my-name hover hide">Mahmoud Mohamed</h3>
+
+            <div class="category__parent">
+                <div class="category__parent-latests hover d-flex align-items-center">
+                    <a href="pages/new.html" ><i class="fas fa-plus"></i><h3 class="category__parent-name hide">New Books</h3></a>
+                </div>
+
+                <div class="category__parent-child ">
+                    <div class="category-name d-flex hover align-items-center " id="show">
+                        <i class="far fa-copy"></i>
+                        <h3 class="hide">Category</h3>
+                        <i class="fas fa-angle-up hide"></i>
+                    </div>
+                    <div class="category__parent-check  ">
+                        <ul class="hide hide-aside">
+                            <a href="history.html">تاريخ</a>
+                            <a href="art.html">فن</a>
+                            <a href="culture.html">ثقافة</a>
+                            <a href="romantic.html">رومانسية</a>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="category__parent-info">
+                    <h3 class="hide">الكتب المستعارة</h3>
+                    <div class="info-1 info">
+                        <span></span>
+                        <p class="hide">تم البيع</p>
+                    </div>
+                    <div class="info-2 info">
+                        <span></span>
+                        <p class="hide">تم الستعاره</p>
+                    </div>
+                    <div class="info-3 info">
+                        <span></span>
+                        <p class="hide">متاح</p>
+                    </div>
+                </div>
+                <div class="icon-lab">
+                    <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+            </div>
+        </aside>
+        <div class="container m-0 d-flex flex-column ">
+            <!--============= START NAVBAR ================== -->
+            <nav class="d-flex position-sticky" style="top: 10px">
+                <a href="../index.html" class="home">Home</a>
+                <div class="search">
+                    <input type="text" placeholder="ابحث عن كتابك">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="light" id="toggel">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+            </nav>
+            <!--============= END NAVBAR ================== -->
+
+            <!--============= START SECTION BOOKS ================== -->
+            <section>
+                <h1 class="main_section_name">  الرومانسية  </h1>
+                <div class="section_books">
+                    <div class="select">
+                        
+                        <select>
+                                <option selected disabled> اختر القسم </option>
+                                <option value="all"> الكل </option>
+                                <option value="love"> عيد الحب </option>
+                                <option value="memories"> ذكريات </option>
+                        </select>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section>
+                <div class="romantic__parent ">
+                    <!--========== قسم عيد الحب   ============-->
+                    <section class="love hide-romantic">
+                        <h3 class="name__section">  عيد الحب </h3>
+                        <div class="colors_section card__parent">
+                            <div class="card__child" id="normal">
+                                <div class="front-romantic" >
+                                    <div class="image">
+                                        <img src="../imgs/romantic/bg-rom-1.jpg" >
+                                        <img src="../imgs/romantic/book-rom-1.jpg">
+                                        <h5 class="kind-of-book"> السلوك البشري  </h5>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="author-name"> المؤلف : <span>محمود محمد</span></h3>
+                                        <h3 class="book-name"> اسم الكتاب : <span>البرمجه</span></h3>
+                                    </div>
+                                    <h3 class="click"> انقر للمزيد <i class="fa-solid fa-computer-mouse"></i></h3>
+                                    
+                                </div>
+                                <div class="back-romantic">
+                                    <div class="info-book">
+                                        <h4> نبذه عن الكتاب </h4>
+                                        <p><q> يتكلم الكتاب عن كيفيه تعلم لغات البرمج </q></p>
+                                    </div>
+                                    <div class="button">
+                                        <a href="#">
+                                            <i class="fa-solid fa-download"></i>
+                                            <span>Download</span>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa-brands fa-readme"></i>
+                                            <span>Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--========== قسم الذكريات  ============-->
+                    <section class="memories hide-romantic">
+                        <h3 class="name__section"> الذكريات </h3>
+                        <div class="romantic_section card__parent">
+                            <div class="card__child" id="normal">
+                                <div class="front-romantic" >
+                                    <div class="image">
+                                        <img src="../imgs/romantic/bg-rom-1.jpg" >
+                                        <img src="../imgs/romantic/book-rom-1.jpg">
+                                        <h5 class="kind-of-book"> العلم </h5>
+                                    </div>
+                                    <div class="info">
+                                        <h3 class="author-name"> المؤلف : <span>محمود محمد</span></h3>
+                                        <h3 class="book-name"> اسم الكتاب : <span>البرمجه</span></h3>
+                                    </div>
+                                    <h3 class="click"> انقر للمزيد <i class="fa-solid fa-computer-mouse"></i></h3>
+                                    
+                                </div>
+                                <div class="back-romantic">
+                                    <div class="info-book">
+                                        <h4> نبذه عن الكتاب </h4>
+                                        <p><q> يتكلم الكتاب عن كيفيه تعلم لغات البرمج </q></p>
+                                    </div>
+                                    <div class="button">
+                                        <a href="#">
+                                            <i class="fa-solid fa-download"></i>
+                                            <span>Download</span>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa-brands fa-readme"></i>
+                                            <span>Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <!--============= END SECTION BOOKS ================== -->
+        </div>
+    </main>
+    <script src="../js/jquery-3.7.0.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        $('docment').ready(function(){
+            $('.select select').change(function(){
+                let x = $(this).val()
+                if (x == "all") {
+                    $('.hide-romantic').show(400)
+                }
+                if (x == "love") {
+                    $('.hide-romantic').hide()
+                    $('.love').show(200)
+                }
+                if (x == "memories") {
+                    $('.hide-romantic').hide()
+                    $('.memories').show(200)
+                }
+            })
+        })
+    </script>
+</body>
+</html>
